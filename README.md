@@ -1,4 +1,4 @@
-# Honey-Bee-Populations-in-the-US-Analysis
+# Bee-Populations-in-the-US
 This project investigates trends in honey bee populations across various regions over the past 20 years. Using publicly available datasets, we explore factors contributing to population changes, including pesticides, climate change, and habitat loss.
 ---
 
