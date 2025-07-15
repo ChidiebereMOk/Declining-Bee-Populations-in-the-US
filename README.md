@@ -6,9 +6,9 @@ This project investigates trends in honey bee populations across various regions
 
 The goal of this analysis is to:
 
-- Track changes in honey bee populations from 2000 to 2020.
-- Identify geographic regions with the most significant declines.
-- Correlate bee population trends with external stressors such as pesticide use, climate variability, and land use changes.
+- Track changes in honey bee populations from 2002 to 2017
+- Identify geographic regions with the most significant declines
+- Correlate bee population trends with external stressors such as pesticide use, climate variability, and land use changes
 
 ---
 
