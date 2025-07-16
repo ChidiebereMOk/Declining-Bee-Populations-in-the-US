@@ -1,8 +1,8 @@
 # Bee-Populations-in-the-US
-This project investigates trends in honey bee populations across various regions over the past 20 years. Using publicly available datasets, we explore factors contributing to population changes, including pesticides, climate change, and habitat loss.
+This project investigates the trends in honey bee populations across various regions over the past 20 years. Using publicly available datasets retrieved from the US Department of Agriculture, we explore factors contributing to population changes, including pesticides, climate change, and habitat loss.
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The goal of this analysis is to:
 
@@ -12,7 +12,7 @@ The goal of this analysis is to:
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 - **Data Cleaning**: Standardized and merged different formats across sources.
 - **Exploratory Data Analysis (EDA)**: Identified trends, outliers, and key variables.
@@ -49,17 +49,6 @@ Urbanization, agricultural expansion, and habitat destruction have significantly
 
 ---
 
-## **Climate Change**
-
-Climate change alters the blooming periods of plants that bees rely on for nectar and pollen. Extreme weather events like floods and droughts can also destroy bee habitats.
-
-### Effects:
-- Mismatch between bees' lifecycle and plant blooming schedules.
-- Habitat destruction due to extreme weather.
-- Changes in the range of both plants and bee species.
-
----
-
 ## **Monoculture Farming**
 
 Monoculture farming, where only one type of crop is grown, offers limited food diversity for bees. While some crops provide abundant food for bees during certain times of the year, they do not offer a year-round food supply.
@@ -82,17 +71,6 @@ Bees are susceptible to various pathogens and parasites, especially the **Varroa
 
 ---
 
-## **Poor Bee Management Practices**
-
-Commercial beekeeping practices such as colony transport, overharvesting, and the use of chemicals can stress bee populations. Moving hives across long distances, especially for monoculture pollination, exposes bees to new environmental stresses and diseases.
-
-### Effects:
-- Stress and disease transmission due to hive transport.
-- Lower genetic diversity within colonies.
-- Weakened immune systems due to overuse of chemicals.
-
----
-
 ## **Invasive Species**
 
 Invasive species like the **Asian hornet** pose a direct threat to bee populations by hunting honeybees and destroying hives. Additionally, invasive plants compete with native flora, further reducing food sources for bees.
@@ -101,17 +79,6 @@ Invasive species like the **Asian hornet** pose a direct threat to bee populatio
 - Direct predation and destruction of hives.
 - Competition with native plants for pollination.
 - Disruption of natural ecosystems.
-
----
-
-## **Nutritional Stress**
-
-Bees experience nutritional stress when deprived of a diverse range of food sources. Lack of variety in pollen and nectar can lead to deficiencies in essential nutrients, weakening their immune system and increasing vulnerability to diseases.
-
-### Effects:
-- Reduced colony health and vitality.
-- Lower reproductive success.
-- Increased mortality rates.
 
 ---
 
