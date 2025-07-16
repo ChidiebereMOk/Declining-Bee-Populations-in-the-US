@@ -104,7 +104,7 @@ Invasive species like the **Asian hornet** pose a direct threat to bee populatio
 
 ---
 
-## 8. **Nutritional Stress**
+## **Nutritional Stress**
 
 Bees experience nutritional stress when deprived of a diverse range of food sources. Lack of variety in pollen and nectar can lead to deficiencies in essential nutrients, weakening their immune system and increasing vulnerability to diseases.
 
