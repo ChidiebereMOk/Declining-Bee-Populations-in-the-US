@@ -39,7 +39,7 @@ plt.show()
 
 
     
-![png](Honey%20Bee%20Analysis_files/Honey%20Bee%20Analysis_3_0.png)
+![png](images/total_bee_col.png)
     
 
 
