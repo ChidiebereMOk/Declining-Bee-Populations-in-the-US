@@ -10,7 +10,7 @@ from prophet import Prophet
 
 ```python
 #Loading in the dataset
-data_path = "C:/Users/Mitch/Desktop/Honey Bee Analysis/"
+data_path = "C:/Users/User1/Folder/Honey Bee Analysis/"
 bee_colonies_filtered = pd.read_csv(data_path + "Bee_Colonies_Filtered.csv")
 geo_codes = pd.read_csv(data_path + "Geo_Codes.csv")
 ```
@@ -251,7 +251,7 @@ plt.show()
 
     10:03:32 - cmdstanpy - INFO - Chain [1] start processing
     10:03:32 - cmdstanpy - INFO - Chain [1] done processing
-    C:\Users\Mitch\PycharmProjects\PythonProject1\.venv\lib\site-packages\prophet\forecaster.py:1872: FutureWarning: 'Y' is deprecated and will be removed in a future version, please use 'YE' instead.
+    
       dates = pd.date_range(
     
 
