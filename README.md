@@ -1,94 +1,28 @@
-# Bee-Populations-in-the-US
-This project investigates the trends in honey bee populations across various regions over the past 20 years. Using publicly available datasets retrieved from the US Department of Agriculture, we explore factors contributing to population changes, including pesticides, climate change, and habitat loss.
+# Analysis of Bee Populations in the United States
+This project investigates the trends in honey bee populations across various regions over a period of 15 years, from 2002 to 2017. Using publicly available datasets retrieved from the US Department of Agriculture.
 ---
 
-## Project Overview
+As of 2025, honey bee populations are a vital ecological and agricultural resource in the United States. Their role in pollinating crops and supporting biodiversity makes it crucial to monitor their population dynamics. Recent concerns over colony collapse disorder, environmental stressors, and land-use changes have heightened the need for detailed data analysis on regional bee colony trends.
 
-The goal of this analysis is to:
+### Task
+The task was to clean and transform raw bee colony data and perform a comprehensive analysis of trends from 2002 to 2017. This involved identifying which regions experienced the most significant population changes, analyzing statistical patterns, and building a forecast model to project future colony counts.
 
-- Track changes in honey bee populations from 2002 to 2017
-- Identify geographic regions with the most significant declines
-- Correlate bee population trends with external stressors such as pesticide use, climate variability, and land use changes
+### Actions
+- Cleaned and structured multiple raw datasets using SQL, including standardizing data types, parsing geographical codes, handling missing values, and creating a relational schema for bee colonies, populations, and regions.
+- Used Python to join datasets, map codes to readable state and county names, and compute colony totals and changes over time.
+- Conducted data visualization with bar plots, histograms, and linear regression charts.
+- Performed statistical analysis including descriptive statistics, Shapiro-Wilk normality testing, and Pearson correlation by region.
+- Built a linear regression model to examine the trend in colony counts over time and used Prophet to forecast colony populations for five additional years.
 
----
-
-## Methodology
-
-- **Data Cleaning**: Standardized and merged different formats across sources.
-- **Exploratory Data Analysis (EDA)**: Identified trends, outliers, and key variables.
-- **Statistical Modeling**: Used regression and correlation analysis to explore relationships between bee populations and potential stressors.
-- **Visualization**: Created line plots, choropleth maps, and heatmaps using `matplotlib`, `seaborn`, and `plotly`.
-
----
-
-# Contributing Factors
-
-The decline of bee populations in the United States is a growing concern, as bees play a crucial role in pollination, impacting food production and biodiversity. Several factors contribute to the decline of these essential pollinators, which are outlined below.
-
----
-
-## **Pesticide Exposure**
-
-Pesticides, particularly neonicotinoids, have been found to impair bees' ability to navigate, forage, and reproduce. Bees can come into contact with these chemicals through contaminated nectar, pollen, or direct exposure.
-
-### Effects:
-- Disorientation and impaired navigation.
-- Weakened immune systems, increasing vulnerability to diseases.
-- Colony death and population decline.
-
----
-
-## **Habitat Loss**
-
-Urbanization, agricultural expansion, and habitat destruction have significantly reduced the availability of wildflowers and native plants, which bees need for foraging and nesting.
-
-### Effects:
-- Decreased food and shelter availability.
-- Loss of nesting areas.
-- Reduced biodiversity and ecosystem resilience.
-
----
-
-## **Monoculture Farming**
-
-Monoculture farming, where only one type of crop is grown, offers limited food diversity for bees. While some crops provide abundant food for bees during certain times of the year, they do not offer a year-round food supply.
-
-### Effects:
-- Poor nutrition due to lack of diversity in forage.
-- Inconsistent food sources that lead to nutritional stress.
-- Reduced habitat complexity and overall biodiversity.
-
----
-
-## **Pathogens and Parasites**
-
-Bees are susceptible to various pathogens and parasites, especially the **Varroa destructor mite**, which weakens bees by feeding on their bodily fluids and transmitting diseases.
-
-### Effects:
-- Colony weakening and high mortality rates.
-- Increased vulnerability to other stressors.
-- Lower reproductive rates and colony survival.
-
----
-
-## **Invasive Species**
-
-Invasive species like the **Asian hornet** pose a direct threat to bee populations by hunting honeybees and destroying hives. Additionally, invasive plants compete with native flora, further reducing food sources for bees.
-
-### Effects:
-- Direct predation and destruction of hives.
-- Competition with native plants for pollination.
-- Disruption of natural ecosystems.
-
----
+### Results
+- Discovered a net national increase in bee colonies from 2002 to 2017.
+- Identified top states and counties that experienced the largest growth in bee populations.
+- Found colony distributions were non-normal and skewed, with significant regional variation.
+- Correlation analysis revealed strong positive trends in specific states.
+- Forecasting models projected a continued increase in colonies nationwide under current conditions.
 
 ## Conclusion and Potential Next Steps:
 
 The decline in bee populations in the U.S. is caused by multiple interconnected factors, including pesticide exposure, habitat loss, climate change, and poor management practices. Addressing these challenges requires a comprehensive approach involving better pesticide management, habitat restoration, sustainable farming practices, and improved beekeeping strategies.
 
 ---
-
-## References:
-- "The Role of Pesticides in Declining Bee Populations," *Environmental Science & Technology*, 2021.
-- "Climate Change and Bee Health," *National Academy of Sciences*, 2020.
-- "Pathogens and Parasites Affecting Bee Populations," *Journal of Apicultural Research*, 2019.
