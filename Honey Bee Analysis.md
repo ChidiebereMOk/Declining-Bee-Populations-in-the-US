@@ -39,7 +39,7 @@ plt.show()
 
 
     
-![png](images/total_bee_col.png)
+![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/total_bee_col.png)
     
 
 
@@ -115,7 +115,7 @@ plt.show()
 
 
     
-![png](Honey%20Bee%20Analysis_files/Honey%20Bee%20Analysis_7_0.png)
+![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/dist_of_bee_col.png)
     
 
 
@@ -221,7 +221,7 @@ print(f"Slope: {model.coef_[0][0]:.2f}, Intercept: {model.intercept_[0]:.2f}")
 
 
     
-![png](Honey%20Bee%20Analysis_files/Honey%20Bee%20Analysis_12_0.png)
+![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/lin_reg_of_bee_col.png)
     
 
 
@@ -249,19 +249,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-    10:03:32 - cmdstanpy - INFO - Chain [1] start processing
-    10:03:32 - cmdstanpy - INFO - Chain [1] done processing
-    
-      dates = pd.date_range(
-    
-
-
-    
-![png](Honey%20Bee%20Analysis_files/Honey%20Bee%20Analysis_13_1.png)
+![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/forecast_of_bee_col.png)
     
 
 
 
-```python
-
-```
