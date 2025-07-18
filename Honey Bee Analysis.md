@@ -38,8 +38,9 @@ plt.show()
 ```
 
 
-    
-![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/total_bee_col.png)
+<img src="Images/total_bee_col.png" alt="total_bee_col" width="600" height="400"/>
+
+
     
 
 
@@ -115,7 +116,7 @@ plt.show()
 
 
     
-![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/dist_of_bee_col.png)
+<img src="Images/dist_of_bee_col.png" alt="dist_of_bee_col" width="600" height="400"/>
     
 
 
@@ -221,7 +222,7 @@ print(f"Slope: {model.coef_[0][0]:.2f}, Intercept: {model.intercept_[0]:.2f}")
 
 
     
-![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/lin_reg_of_bee_col.png)
+<img src="Images/lin_reg_of_bee_col.png" alt="total_bee_col" width="600" height="400"/>
     
 
 
@@ -249,7 +250,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](https://github.com/ChidiebereMOk/Declining-Bee-Populations-in-the-US/blob/main/Images/forecast_of_bee_col.png)
+<img src="Images/forecast_of_bee_col.png" alt="forecast_of_bee_col" width="600" height="400"/>
     
 
 
