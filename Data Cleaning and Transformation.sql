@@ -19,10 +19,50 @@ FROM
 	population_estimates_trimmed 
 WHERE rural_urban_code_2013 = '';
 
+SELECT 
+	* 
+FROM 
+	population_estimates_trimmed 
+WHERE population_1990 = '';
+
+SELECT 
+	* 
+FROM 
+	population_estimates_trimmed 
+WHERE population_2000 = '';
+
+SELECT 
+	* 
+FROM 
+	population_estimates_trimmed 
+WHERE population_2010 = '';
+
+SELECT 
+	* 
+FROM 
+	population_estimates_trimmed 
+WHERE population_2020 = '';
+
 -- Converting empty strings into null values
 UPDATE population_estimates_trimmed 
 SET rural_urban_code_2013 = null 
 WHERE rural_urban_code_2013 = '';
+
+UPDATE population_estimates_trimmed 
+SET population_1990 = null 
+WHERE population_1990 = '';
+
+UPDATE population_estimates_trimmed 
+SET population_2000 = null 
+WHERE population_2000 = '';
+
+UPDATE population_estimates_trimmed 
+SET population_2010 = null 
+WHERE population_2010 = '';
+
+UPDATE population_estimates_trimmed 
+SET population_2020 = null 
+WHERE population_2020 = '';
 
 -- Formatting tables for readability
 ALTER TABLE population_estimates_trimmed 
