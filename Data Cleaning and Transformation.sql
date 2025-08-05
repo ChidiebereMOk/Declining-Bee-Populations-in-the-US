@@ -106,10 +106,10 @@ SET county_ansi = fipstxt%1000;
 
 
 -- Creating population, Geographic Codes, Agricultural Codes, and Bee Colonies tables
-DROP TABLE IF EXISTS population;
-DROP TABLE IF EXISTS geo_codes;
-DROP TABLE IF EXISTS bee_colonies;
-DROP TABLE IF EXISTS ag_codes;
+DROP TABLE IF EXISTS population,
+		     geo_codes,
+		     bee_colonies,
+		     ag_codes;
 
 
 CREATE TABLE 
