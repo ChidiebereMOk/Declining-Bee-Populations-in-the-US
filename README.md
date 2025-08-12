@@ -1,5 +1,5 @@
 # Declining Bee Colony Populations in the United States
-This project investigates the trends in honey bee populations across various regions over a period of 15 years, from 2002 to 2017, using publicly available datasets retrieved from the US Department of Agriculture.
+This project investigates the trends in honey bee populations across various regions over a period of 15 years, from 2002 to 2017, using publicly available datasets retrieved from the US Department of Agriculture
 ---
 
 As of 2025, honey bee populations are a vital ecological and agricultural resource in the United States. Their role in pollinating crops and supporting biodiversity makes it crucial to monitor their population dynamics. Recent concerns over colony collapse disorder, environmental stressors, and land-use changes have heightened the need for detailed data analysis on regional bee colony trends.
