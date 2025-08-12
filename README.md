@@ -1,4 +1,4 @@
-# Analysis of Bee Colony Populations in the United States
+# Declining Bee Colony Populations in the United States
 This project investigates the trends in honey bee populations across various regions over a period of 15 years, from 2002 to 2017, using publicly available datasets retrieved from the US Department of Agriculture.
 ---
 
