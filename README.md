@@ -1,4 +1,4 @@
-# Declining Bee Colony Populations in the United States
+# Bee Colony Populations in the United States
 This project investigates the trends in honey bee populations across various regions over a period of 15 years, from 2002 to 2017, using publicly available datasets retrieved from the US Department of Agriculture
 ---
 
@@ -9,13 +9,14 @@ The task was to clean and transform raw bee colony data and perform a comprehens
 
 ### Actions
 - Cleaned and structured multiple datasets using SQL, including standardizing data types, parsing geographical codes, handling missing values, and creating a relational schema for bee colonies, populations, and regions.
+- Developed a Data Warehouse SQL Server for consumption of structured data.
 - Used Python to join datasets, map codes to readable state and county names, and compute colony totals and changes over time.
 - Conducted data visualization with bar plots, histograms, and linear regression charts.
 - Performed statistical analysis including descriptive statistics, Shapiro-Wilk normality testing, and Pearson correlation by region.
 - Built a linear regression model to examine the trend in colony counts over time and used Prophet to forecast colony populations for five additional years.
 
 ### Results
-- Discovered a net national increase in bee colonies from 2002 to 2017.
+- Discovered a net national decrease in bee colonies from 2002 to 2017.
 - Identified top states and counties that experienced the largest growth in bee populations.
 - Found colony distributions were non-normal and skewed, with significant regional variation.
 - Correlation analysis revealed strong positive trends in specific states.
